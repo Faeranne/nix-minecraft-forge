@@ -28,7 +28,7 @@ in
       '';
 
       dataDir = lib.mkOption {
-        type = types.str;
+        type = lib.types.str;
         default = "/var/lib/minecraft";
         description = lib.mdDock ''
           The path for all the server files.
